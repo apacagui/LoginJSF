@@ -6,23 +6,23 @@
 
     <ui:define name="content">
         <h:form>
-            <div class="container">
-                <div class="row">
-                    <div class="input-field col s12 m6">
-                        <label for="usuario">Usuario</label>
+            <h:panelGroup layout="block"  class="container">
+                <h:panelGroup layout="block"  class="row">
+                    <h:panelGroup layout="block"  class="input-field col s12 m6">
+                        <h:outputLabel for="usuario" value="Usuario"/>
                         <h:inputText value="" id="usuario"/>
                                               
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12 m6">
-                        <label for="password">Password</label>
+                    </h:panelGroup >
+                </h:panelGroup >
+                <h:panelGroup layout="block"  class="row">
+                    <h:panelGroup layout="block"  class="input-field col s12 m6">
+                        <h:outputLabel for="password" value="Password" />
                         <h:inputText value="" id="password"/>
                                                
-                    </div>
-                </div>
+                    </h:panelGroup >
+                </h:panelGroup >
                 <h:commandButton  value="iniciar sesion" class="btn waves-effect waves-light"/>
-            </div>
+            </h:panelGroup >
             
             
         </h:form>
